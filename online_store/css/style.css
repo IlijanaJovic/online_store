@@ -1,0 +1,245 @@
+/*font-family: "Raleway", sans-serif;
+font-family: "Bellota", cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    -90deg,
+    rgba(22, 132, 157, 0.82) 0%,
+    rgba(9, 90, 121, 0.79) 35%,
+    rgba(144, 219, 234, 0.66) 100%
+  );
+  padding-top: 6%;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  padding: 7px;
+}
+#nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  overflow: hidden;
+  height: 57px;
+  font-family: "Caveat";
+  background: #cff2f6;
+  margin: 0 0 8px 0;
+}
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#nav ul li {
+  display: inline-block;
+  position: relative;
+}
+#nav ul li a {
+  padding: 10px 23px;
+  height: 37px;
+  line-height: 16px;
+  display: inline-block;
+  transition: 2s all ease;
+}
+#nav ul li a:link,
+a:visited {
+  color: #2b98edb8;
+  text-decoration: none;
+}
+#nav ul li a:hover {
+  color: #0a4c80;
+  transition: 0.3s all ease;
+}
+#nav ul li a:active {
+  background: rgba(23, 121, 160, 0.144);
+  color: #9c0b0bbe;
+  text-decoration: none;
+}
+#nav img {
+  float: right;
+  padding: 8px 15px;
+}
+.wraper {
+  width: 920px;
+  margin: 20 auto;
+  padding: 20px;
+}
+.items {
+  display: block;
+  margin: 20px 23px;
+}
+.clear {
+  clear: both;
+}
+.item {
+  float: left;
+  margin: 15px 20px;
+  width: 379px;
+  padding: 10px 8px;
+}
+.item h5,
+h4 {
+  font-size: 15px;
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0 0 5px 0;
+}
+.item p {
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 8px 3px;
+}
+.item img {
+  max-width: 40%;
+  padding: 10px 15px;
+  display: block;
+  margin: auto;
+  align-items: center;
+}
+.item button {
+  width: 289px;
+  padding: 10px 10px 24px 10px;
+  margin: 10px 32px;
+  border: 1px solid #b3e5fc;
+  background-color: #e0e9f152;
+  box-shadow: 10px 10px 5px #155f6359;
+  display: block;
+}
+#footer p,
+a {
+  text-align: center;
+}
+.table h1 {
+  font-size: 30px;
+  padding-top: 30px;
+  text-align: left;
+}
+.table {
+  border-bottom: 1px solid #b3b3b3;
+}
+.table table {
+  width: 94%;
+  margin: 40px 28px;
+}
+.table th,
+td {
+  border: 1px solid rgba(9, 90, 121, 0.79);
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background: rgba(22, 132, 157, 0.82);
+  height: 50px;
+  font-weight: 500;
+}
+.table td {
+  background: rgba(144, 219, 234, 0.55);
+  height: 40px;
+}
+.table img {
+  padding: 5px 0;
+}
+
+.box {
+  background: rgba(23, 121, 160, 0.144);
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding: 8px 8px;
+  width: 60px;
+}
+.box .next {
+  position: absolute;
+  top: 59%;
+  right: 4px;
+  background: rgba(23, 121, 160, 0.144);
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  z-index: 1;
+  transform: translateY(-50%) rotate(135deg);
+  cursor: pointer;
+}
+.box .prev {
+  position: absolute;
+  top: 59%;
+  left: 4px;
+  background: rgba(23, 121, 160, 0.144);
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  z-index: 1;
+  cursor: pointer;
+  transform: translateY(-50%) rotate(315deg);
+}
+#spinner span {
+  display: none;
+  user-select: none;
+
+  text-align: center;
+}
+.box #spinner:nth-child(1) {
+  display: initial;
+}
+.poruka {
+  display: block;
+  margin: 80px 80px;
+  max-width: 300px;
+  width: 230px;
+  background-color: rgba(23, 121, 160, 0.144);
+  padding: 25px;
+  border-radius: 5px;
+}
+.poruka h2 {
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 11px;
+}
+.poruka .popuni {
+  margin-bottom: 10px;
+}
+.poruka .popuni input[type="text"],
+.poruka textarea {
+  width: 174px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.poruka .btn input[type="submit"] {
+  border: 0;
+  margin-top: 15px;
+  padding: 10px;
+  width: 174px;
+  background: #cff2f6;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 19px;
+  cursor: pointer;
+}
+.poruka #error {
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #f31515;
+  text-align: center;
+  font-size: 13px;
+  transition: all 0.5s ease;
+}

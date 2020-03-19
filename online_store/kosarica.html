@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kupi knjigu</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bellota:300i,400,400i,700|Raleway:400,700,700i&display=swap&subset=cyrillic,latin-ext"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="wraper">
+      <header id="header">
+        <h1>Kupi knjigu</h1>
+        <h3 style="text-align: center;">
+          <i
+            >" Dobri prijatelji, dobre knjige i čista savest: to je idealan
+            život.</i
+          >– Mark Tven"
+        </h3>
+      </header>
+      <!-- navbar -->
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li></li>
+          <li><a href="proizvod.html">Proizvod</a></li>
+          <li>
+            <a href="kosarica.html"><img src="img/sc.png"/></a>
+          </li>
+          <li><a href="naruci.html">Naruči</a></li>
+          <img src="img/logo.png"  alt="logo" />
+        </ul>
+      </nav>
+      <!-- end of navbar -->
+
+        <div class="table">
+            <h1></h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fotografija</th>
+                        <th>Naziv proizvoda</th>
+                        <th>Cijena</th>
+                        <th>Količina</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="img/dostojevski/img2s.jpg"></td>
+                        <td>"Zločin i kazna" -Fjodor Mihajlovič Dostojevski</td>
+                        <td>20KM</td>
+                        <td>
+                        <div class="box">
+                          <span class="next" onclick="nextNum()"></span>
+                          <span class="prev" onclick="prevNum()"></span>
+                          <div id="spinner"></div>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/hese/img2s.jpg"></td>
+                        <td>"Stepski vuk" -Herman Hese</td>
+                        <td>23KM</td>
+                        <td><div class="box">
+                          <span class="next" onclick="nextNum()"></span>
+                          <span class="prev" onclick="prevNum()"></span>
+                          <div id="spinner"></div>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/jesenjin/img3s.jpg"></td>
+                        <td>"Sabrana dela" -Sergej Jesenin</td>
+                        <td>17KM</td>
+                        <td><div class="box">
+                          <span class="next" onclick="nextNum()"></span>
+                          <span class="prev" onclick="prevNum()"></span>
+                          <div id="spinner"></div>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/kapor/img2s.jpg"></td>
+                        <td>"Foliranti" -Momo Kapor</td>
+                        <td>15KM</td>
+                        <td><div class="box">
+                          <span class="next" onclick="nextNum()"></span>
+                          <span class="prev" onclick="prevNum()"></span>
+                          <div id="spinner"></div>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/zola/img2s.jpg"></td>
+                        <td>"Ljubavna afera" -Emile Zola</td>
+                        <td>17KM</td>
+                        <td><div class="box">
+                          <span class="next" onclick="nextNum()"></span>
+                          <span class="prev" onclick="prevNum()"></span>
+                          <div id="spinner"></div>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/kafka/img3s.jpg"></td>
+                        <td>"Klijent" -Franc Kafka</td>
+                        <td>20KM</td>
+                        <td><div class="box">
+                          <span class="next" onclick="nextNum()"></span>
+                          <span class="prev" onclick="prevNum()"></span>
+                          <div id="spinner"></div>
+                        </div></td>
+                    </tr>
+                    <td colspan="4">Naša ponuda! </td>
+                </tbody>
+            </table>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <footer id="footer">
+      <p>Copyright &copy; 2020 All rights reserved.</p>
+      <p>Contact information:</p>
+      <a href="mailto:someone@example.com">
+        <p>someone@example.com</p> </a
+      >.
+    </footer>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
